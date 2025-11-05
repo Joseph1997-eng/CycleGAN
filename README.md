@@ -49,7 +49,7 @@ horse2zebra/
  └── testB/
 ```
 ---
-###🧠 Model Architecture
+# 🧠 Model Architecture
 ## Generator
 
 The generator is a U-Net-like encoder-decoder with:
