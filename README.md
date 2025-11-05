@@ -72,7 +72,7 @@ The discriminator is a PatchGAN:
 
 - Encourages high-frequency realism.
 ---
-### 3. Pretrained Model
+### 1. Pretrained Model
 
 To accelerate convergence, you can load a pre-trained checkpoint:
 
@@ -82,7 +82,7 @@ gen_AB.load_state_dict(pre_dict['gen_AB'])
 gen_BA.load_state_dict(pre_dict['gen_BA'])
 ```
 ---
-### 4. Sample Visualization
+### 2. Sample Visualization
 ```python
 def show_tensor_images(image_tensor, num_images=25, size=(3, 256, 256)):
     image_tensor = (image_tensor + 1) / 2
