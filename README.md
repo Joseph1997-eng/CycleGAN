@@ -26,9 +26,9 @@ CycleGAN enables transformation between two visual domains **without requiring p
 
 ---
 
-## 3.1. ⚙️ Getting Started
+## 3. ⚙️ Getting Started
 
-### 1. Requirements
+### 3.1. Requirements
 Make sure you have the following Python libraries installed:
 
 
