@@ -33,7 +33,8 @@ Make sure you have the following Python libraries installed:
 
 ```bash
 pip install torch torchvision matplotlib pillow tqdm
-```
+
+```bash
 horse2zebra/
  ├── trainA/   # Horses
  ├── trainB/   # Zebras
