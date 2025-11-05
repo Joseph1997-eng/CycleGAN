@@ -31,10 +31,20 @@ CycleGAN enables transformation between two visual domains **without requiring p
 ### 1. Requirements
 Make sure you have the following Python libraries installed:
 
+Pretrained Model
+
+To accelerate convergence, you can load a pre-trained checkpoint:
+
+```Python
+pre_dict = torch.load('cycleGAN_100000.pth')
+gen_AB.load_state_dict(pre_dict['gen_AB'])
+gen_BA.load_state_dict(pre_dict['gen_BA'])
+
+
 ```bash
 pip install torch torchvision matplotlib pillow tqdm
 
-```bash
+
 horse2zebra/
  ├── trainA/   # Horses
  ├── trainB/   # Zebras
