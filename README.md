@@ -49,8 +49,8 @@ horse2zebra/
  └── testB/
 ```
 ---
-####🧠 Model Architecture
-### Generator
+###🧠 Model Architecture
+## Generator
 
 The generator is a U-Net-like encoder-decoder with:
 
@@ -64,13 +64,13 @@ The generator is a U-Net-like encoder-decoder with:
 
 Residual Blocks help retain image details and stabilize deep training.
 
-###Discriminator
+## Discriminator
 
 The discriminator is a PatchGAN:
 
-*Classifies 70×70 image patches as real or fake.
+- Classifies 70×70 image patches as real or fake.
 
-*Encourages high-frequency realism.
+- Encourages high-frequency realism.
 ---
 ### 3. Pretrained Model
 
