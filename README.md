@@ -49,28 +49,28 @@ horse2zebra/
  └── testB/
 ```
 ---
-🧠 Model Architecture
-Generator
+####🧠 Model Architecture
+### Generator
 
 The generator is a U-Net-like encoder-decoder with:
 
-2 Contracting Blocks
+- 2 Contracting Blocks
 
-9 Residual Blocks
+- 9 Residual Blocks
 
-2 Expanding Blocks
+- 2 Expanding Blocks
 
-Uses Instance Normalization instead of BatchNorm.
+- Uses Instance Normalization instead of BatchNorm.
 
 Residual Blocks help retain image details and stabilize deep training.
 
-Discriminator
+###Discriminator
 
 The discriminator is a PatchGAN:
 
-Classifies 70×70 image patches as real or fake.
+*Classifies 70×70 image patches as real or fake.
 
-Encourages high-frequency realism.
+*Encourages high-frequency realism.
 ---
 ### 3. Pretrained Model
 
