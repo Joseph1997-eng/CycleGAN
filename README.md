@@ -1,5 +1,8 @@
 # 🌀 CycleGAN: Unpaired Image-to-Image Translation
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Joseph1997-eng/CycleGAN/blob/main/C3W3_Assignment.ipynb)
+
+
 This project implements a **CycleGAN (Cycle-Consistent Adversarial Network)** for unpaired image-to-image translation, based on the paper  
 [*Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks*](https://arxiv.org/abs/1703.10593) by Zhu et al., 2017.
 
@@ -118,4 +121,7 @@ CycleGAN/
  └── README.md
 ```
 
+## 9. 📥 Download Pretrained Model  
+You can download the pretrained checkpoint here:  
+[cycleGAN_100000.pth (Google Drive)](https://drive.google.com/file/d/1OxzDsf0Sl5XxCq1M58mi80q3I3iZ25Tb/view?usp=drive_link)
 
