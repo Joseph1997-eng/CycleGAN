@@ -123,5 +123,5 @@ CycleGAN/
 
 ## 9. 📥 Download Pretrained Model  
 You can download the pretrained checkpoint here:  
-[cycleGAN_100000.pth (Google Drive)](https://drive.google.com/file/d/1OxzDsf0Sl5XxCq1M58mi80q3I3iZ25Tb/view?usp=drive_link)
+[cycleGAN_100000.pth (Google Drive)](https://drive.google.com/file/d/1OxzDsf0Sl5XxCq1M58mi80q3I3iZ25Tb/view?usp=sharing)
 
